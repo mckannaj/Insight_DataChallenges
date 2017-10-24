@@ -5,6 +5,7 @@ Each folder in this repository is dedicated to a single challenge. Within each f
 1. The original challenge, usually in .pdf
 2. The dataset(s), usually in .csv
 3. My solution, a combination of code and descriptive Markdown contained in a Jupyter notebook<br>
+
 **Challenge 1**<br> 
 This challenge involved employee retention within several companies. Since turnover is expensive (given the amount of time and money it takes to find/hire/train a new employee to a skilled position), it's valuable to find out the reasons that employees leave and attempt to mitigate the ones that can be mitigated.<br>
 My model for these data was a survival analysis (specifically, a Cox Proportional Hazards model), which identified the primary causes of employees leaving their companies to be salary, seniority, and department. Since seniority and department are difficult problems for companies to address, the key actionable item is salary increase, commensurate with the theoretical (or calculable from historical data) cost of hiring a new employee.<br><br> 
